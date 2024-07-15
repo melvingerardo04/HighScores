@@ -69,7 +69,8 @@ def insert_name():
 
             pygame.display.update()
     else:
-        pickgames.pick_games(user_text)
+        import menu
+        menu.menu()
 
 
 pygame.display.update()
